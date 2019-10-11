@@ -36,6 +36,14 @@ public class SangController {
 		Map<String, Object> sangpumDatas = new HashMap<String, Object>();
 		sangpumDatas.put("datas", dataList);
 		
+		Thread thread = new Thread();
+		
+		try {
+			thread.sleep(3000);
+		} catch (Exception e) {
+			System.out.println("Thread err : " + e);
+		}
+		
 		return sangpumDatas;
 	}
 }

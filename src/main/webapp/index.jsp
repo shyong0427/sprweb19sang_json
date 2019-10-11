@@ -7,6 +7,6 @@
 </head>
 <body>
 	<a href="sangpum">상품목록(json으로 출력)</a><br>
-	<a href="sanlist.jsp">상품목록(ajax로 처리)</a><br>
+	<a href="sanglist.jsp">상품목록(ajax로 처리)</a><br>
 </body>
 </html>
